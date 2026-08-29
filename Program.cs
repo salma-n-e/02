@@ -50,5 +50,10 @@ class program
         //6 
         double price = 49.99;
         int prices2 = (int)price;
+
+        //7
+        string pagesText = "464";
+        int pagesText2 = Convert.ToInt32(pagesText);
+        Console.WriteLine(pagesText2);
     }
 }
