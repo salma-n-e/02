@@ -20,5 +20,9 @@ class program
         Console.WriteLine(book.Equals(book));
         Console.WriteLine(book.GetHashCode());
         Console.WriteLine(book.GetType());
-}
+
+        // 3
+        //int pages = "464"; is a string and cannot initlize it to an int;
+        // int pages = 464;
+    }
 }
