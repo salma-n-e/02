@@ -68,5 +68,9 @@ class program
         {
             Console.WriteLine("Invalid number");
         }
+        //9 
+        int pagex = 464;
+        string pageText = pagex.ToString();
+        Console.WriteLine(pageText.GetType());
     }
 }
