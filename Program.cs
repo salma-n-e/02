@@ -1,10 +1,19 @@
-﻿namespace project_02C
+﻿using System;
+// 1st answer
+class Book
 {
-    internal class Program
+
+    public string Title;
+    public int Pages;
+}
+class program
+{
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Book book = new Book();
+        book.Title = "english";
+        book.Pages = 10;
+        object obj = book;
+        Console.WriteLine(obj);
     }
 }
