@@ -45,5 +45,10 @@ class program
         Console.WriteLine(pages);
         double pages2 = pages;
         Console.WriteLine(pages2);
+
+
+        //6 
+        double price = 49.99;
+        int prices2 = (int)price;
     }
 }
