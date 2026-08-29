@@ -39,5 +39,11 @@ class program
             Console.WriteLine("Cannot divide by zero");
         }
         finally { Console.WriteLine("Done"); }
+
+        //5 
+        int pages = 300;
+        Console.WriteLine(pages);
+        double pages2 = pages;
+        Console.WriteLine(pages2);
     }
 }
