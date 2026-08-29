@@ -72,5 +72,11 @@ class program
         int pagex = 464;
         string pageText = pagex.ToString();
         Console.WriteLine(pageText.GetType());
+
+        //10
+
+        int copies = 100;
+        object obj2 = copies;
+        int unboxedcopies = (int)obj2;
     }
 }
