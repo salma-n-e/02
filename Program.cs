@@ -24,5 +24,20 @@ class program
         // 3
         //int pages = "464"; is a string and cannot initlize it to an int;
         // int pages = 464;
+
+
+        // 4 
+        try
+        {
+
+            int zero = 0;
+            int result = 10 / zero;
+
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("Cannot divide by zero");
+        }
+        finally { Console.WriteLine("Done"); }
     }
 }
